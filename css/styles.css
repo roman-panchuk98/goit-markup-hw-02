@@ -47,6 +47,10 @@ button{
     color: #2e2f42;
 }
 
+.nav-link{
+    color: #2e2f42;
+}
+
 .contacts .contacts-link:hover,
 .contacts .contacts-link:focus{
     color: #404bbf ;
