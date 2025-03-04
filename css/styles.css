@@ -44,16 +44,17 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .contacts .contacts-link:hover,
 .contacts .contacts-link:focus{
-    color: #ff0000;
+    color: #404bbf ;
 }
 
 .navigation .nav-link:hover,
 .navigation .nav-link:focus{
-    color: #ff0000;
+    color: #404bbf ;
 }
 /* First section */
 .first-section{
@@ -110,6 +111,11 @@ button{
     color: #2e2f42;
     font-weight: 700;
     text-align: center;
+    text-transform: capitalize;
+}
+
+.third-section-list{
+    background-color: #ffffff;
 }
 
 .third-section-name{
@@ -128,10 +134,12 @@ button{
 /* Four section */
 .four-section-title{
     font-weight: 700;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .four-section-name{
@@ -157,10 +165,10 @@ button{
 .logo-footer{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color:  #4d5ae5;
     font-size: 18px;
 }
 
@@ -169,4 +177,8 @@ button{
     letter-spacing: 0.02em;
     color: #f4f4fd;
     font-size: 16px;
+}
+
+.footer-studio{
+    color: #f4f4fd;
 }
